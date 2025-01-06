@@ -1,0 +1,47 @@
+.foto {
+    width: 90px;
+}
+
+.cardAprensentacao{
+    text-align: center;
+}
+
+.cardAprensentacao{
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    width: 279px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.desc,
+.nome {
+    color: #4A4A4A;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+span {
+    color: #101010;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}

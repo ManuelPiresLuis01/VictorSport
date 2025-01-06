@@ -1,0 +1,102 @@
+.parte1 {
+    text-align: center;
+    animation: foto infinite 60s;
+    color: white;
+    height: 80vh;
+}
+
+.presentation {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation p{
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes foto {
+    0% {
+        background: url(../../images/background.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-blend-mode: color;
+        background-color: #000000c7;
+    }
+
+    50% {
+        background: url(../../images/background1.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-blend-mode: color;
+        background-color: #000000c7;
+    }
+
+    100% {
+        background: url(../../images/background2.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-blend-mode: color;
+        background-color: #000000c7;
+    }
+
+}
+
+.btn-agendar {
+    background: none;
+    margin: 30px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-agendar a{
+    color: white;
+}
+
+.presentation p {
+    margin: 0 300px;
+    font-size: 30px;
+}
+
+.exclamar {
+    color: red;
+}
+
+.cardsInformation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin: 80px;
+}
+
+.Testemunhas {
+    text-align: center;
+}
+
+.testemunhas {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.logo {
+    height: 400px;
+    background: url(../../images/footbal.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: #000000b7;
+    margin: 60px 0;
+}

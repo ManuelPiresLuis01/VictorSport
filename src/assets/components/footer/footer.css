@@ -1,0 +1,172 @@
+footer {
+    padding: 20px;
+    padding-top: 40px;
+    background: #E3E3E3;
+    flex-shrink: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+.footer1 {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.um {
+    margin-right: 300px;
+    margin-left: 50px;
+}
+
+.um h1 {
+    color: #363636;
+    font-family: "Amore Lite Edition";
+    font-size: 59.077px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.um p {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.um img {
+    width: 20.054px;
+    height: 22.364px;
+}
+
+.um .img {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.dois {
+    margin-right: 100px;
+}
+
+.dois h2,
+.tres h2 {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dois li,
+.tres li {
+    margin: 5px 0;
+    align-self: stretch;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.dois ul,
+.tres ul {
+    display: block;
+}
+
+.tres p {
+    margin: 30px 0;
+    width: 350px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    display: flex;
+    height: 35px;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 48px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn2 {
+    display: flex;
+    height: 35px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 48px;
+    background: #000;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.google {
+    margin: 90px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.copy {
+    display: flex;
+    padding: 15px 30px;
+}
+
+
+.right {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 200px;
+}
+
+.outros {
+    display: flex;
+    gap: 25px;
+}
+
+.outros p {
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
