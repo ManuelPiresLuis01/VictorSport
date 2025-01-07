@@ -10,22 +10,69 @@ function Passo1() {
             <HeaderDashboard />
             <Menudashboard />
             <Buttonproximo
-                path="/dashboard/adicionar/passo1"
+                txt = "Vamos criar um evento!"
+                path="/dashboard/adicionar/passo2"
                 nome="Proximo"
             />
-            <form>
-                <h1>Vamos criar um evento!</h1>
+            <form >
                 <div className="dados">
                     <div>
-                        <label>Nome do evento *</label>
-                        <input type="text" placeholder="Nome do evento" />
+                        <div>
+                            <label>Nome do evento *</label>
+                            <br />
+                            <input type="text" placeholder="Nome do evento" />
+                        </div>
+                        <br />
+
+                        <div>
+                            <label>Data do evento *</label>
+                            <br />
+                            <input type="date" placeholder="Data do evento" />
+                        </div>
+                        <br />
+                        <div>
+                            <label>Hora de inicio *</label>
+                            <br />
+                            <input type="time" />
+                        </div>
+                        <br />
+                        <div>
+                            <label>Hora de termino *</label>
+                            <br />
+                            <input type="time" />
+                        </div>
                     </div>
 
                     <div>
-                        <label>Descrição *</label>
+                        <label>Descrição do evento*</label>
+                        <br />
                         <textarea placeholder="Descrição do evento"></textarea>
                     </div>
                 </div>
+                <div className="select">
+                    <div>
+                        <label>Limite de inscricões</label>
+                        <br />
+                        <input type="time" />
+                    </div>
+
+                    <div>
+                        <label>Evento de um dia? </label>
+                        <br />
+                        <select>
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Numero de telefone *</label>
+                        <br />
+                        <input type="tel" />
+                    </div>
+
+                </div>
+
             </form>
         </div>
     )

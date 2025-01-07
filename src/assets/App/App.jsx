@@ -5,6 +5,8 @@ import Login from "../pages/login/Login"
 import Cadastro from "../pages/cadastro/cadastro"
 import Confirmar from "../pages/confirmar/confirmar"
 import Passo1 from "../pages/criarEvento/passo1"
+import Passo2 from "../pages/criarEvento/passo2"
+
 
 function App() {
 
@@ -22,6 +24,10 @@ function App() {
         <Route
           path="/dashboard/adicionar/passo1"
           element={<Passo1/>}
+        />
+        <Route
+          path="/dashboard/adicionar/passo2"
+          element={<Passo2/>}
         />
         <Route
           path="/login"

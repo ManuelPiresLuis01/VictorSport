@@ -1,8 +1,19 @@
 .btn-proximo{
     position: fixed;
+    top: 100px;
+    left: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-proximo a{
+    color: white;
+    font-weight: bold;
+}
+
+.btn-proximo button,
+.btn-agendar{
     cursor: pointer;
-    top: 90px;
-    right: 20px;
     background: green;
     border: none;
     border-radius: 20px;
@@ -10,7 +21,7 @@
     width: 200px;
 }
 
-.btn-proximo a{
+.btn-agendar a{
     color: white;
     font-weight: bold;
 }

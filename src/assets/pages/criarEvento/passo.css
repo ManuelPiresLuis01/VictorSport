@@ -1,3 +1,57 @@
-.passo form h1 {
-    text-align: center;
+.passo {
+    display: flex;
+    width: 100%;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.select{
+    margin-top: 30px;
+    margin-left: 310px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+select{
+    background: none;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.select input{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dados input{
+    margin-top: 10px;
+    border: none;
+    border: 1px solid black;
+    padding: 10px;  
+    border-radius: 10px;
+}
+textarea{
+    margin-top: 10px;
+    border: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
 }
