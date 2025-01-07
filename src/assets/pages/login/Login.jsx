@@ -1,5 +1,7 @@
 import "./Login.css"
 import logo from "../../images/logotipo.png"
+import { FaRegUser } from "react-icons/fa"
+import { RiLockPasswordLine } from "react-icons/ri"
 import { Link } from "react-router-dom";
 
 function Login() {
@@ -9,6 +11,7 @@ function Login() {
             <form>
                 <h1>Login</h1>
                 <div className="input">
+                    <FaRegUser/>
                     <input
                         type="email"
                         placeholder="Username ou email"
@@ -17,6 +20,7 @@ function Login() {
                 </div>
                 <br />
                 <div className="input">
+                    < RiLockPasswordLine/>
                     <input
                         type="password"
                         placeholder="password"

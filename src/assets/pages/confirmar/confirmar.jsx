@@ -1,4 +1,5 @@
 import logo from "../../images/logotipo.png"
+import { RiLockPasswordLine } from "react-icons/ri"
 
 function Confirmar() {
     return (
@@ -7,6 +8,7 @@ function Confirmar() {
             <form>
                 <h1>Ative a sua conta !</h1>
                 <div className="input">
+                    <RiLockPasswordLine/>
                     <input
                         type="text"
                         placeholder="Digite o codigo enviado no seu email"
