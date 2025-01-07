@@ -1,0 +1,16 @@
+.btn-proximo{
+    position: fixed;
+    cursor: pointer;
+    top: 90px;
+    right: 20px;
+    background: green;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 0;
+    width: 200px;
+}
+
+.btn-proximo a{
+    color: white;
+    font-weight: bold;
+}

@@ -20,7 +20,7 @@ function Menudashboard() {
             <nav>
                 <div className="link">
                     <i><GoHomeFill /></i>
-                    <Link>Home</Link>
+                    <Link>Principio</Link>
                 </div>
                 <div className="link">
                     <i> <FaPlus /></i>

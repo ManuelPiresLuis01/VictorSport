@@ -4,6 +4,7 @@ import Dashboard from "../pages/dashboard/Dashboard"
 import Login from "../pages/login/Login"
 import Cadastro from "../pages/cadastro/cadastro"
 import Confirmar from "../pages/confirmar/confirmar"
+import Passo1 from "../pages/criarEvento/passo1"
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
         <Route
           path="/dashboard"
           element={<Dashboard/>}
+        />
+        <Route
+          path="/dashboard/adicionar/passo1"
+          element={<Passo1/>}
         />
         <Route
           path="/login"
