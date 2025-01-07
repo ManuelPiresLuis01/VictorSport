@@ -26,14 +26,14 @@ function Cards(p){
     )
 }
 
-function Card(p){
+/*function Card(p){
     return(
         <div className="cardApresentacao">
             <h1>{p.num}</h1>
             <p>{p.text}</p>
         </div>
     )
-}
+}*/
 
 function CardAgendamento(p){
     return (
@@ -43,4 +43,5 @@ function CardAgendamento(p){
         </div>
     )
 }
-export {Cards, Card, CardAgendamento}
+
+export {Cards, /*,Card*/ CardAgendamento}

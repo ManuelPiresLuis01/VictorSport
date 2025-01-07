@@ -1,6 +1,10 @@
 .parte1 {
     text-align: center;
-    animation: foto infinite 60s;
+    background: url(../../images/background1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: #000000c7;
     color: white;
     height: 80vh;
 }
@@ -19,33 +23,6 @@
 a {
     color: white;
     text-decoration: none;
-}
-
-@keyframes foto {
-    0% {
-        background: url(../../images/background.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-blend-mode: color;
-        background-color: #000000c7;
-    }
-
-    50% {
-        background: url(../../images/background1.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-blend-mode: color;
-        background-color: #000000c7;
-    }
-
-    100% {
-        background: url(../../images/background2.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-blend-mode: color;
-        background-color: #000000c7;
-    }
-
 }
 
 .btn-agendar {
@@ -68,10 +45,6 @@ a {
     font-size: 30px;
 }
 
-.exclamar {
-    color: red;
-}
-
 .cardsInformation {
     display: flex;
     justify-content: center;
@@ -85,8 +58,9 @@ a {
     text-align: center;
 }
 
-.evento-agendado{
-    margin: 30px;
+.evento-agendado {
+    font-size: 40px;
+    margin: 80px 0 50px 0;
     font-weight: bold;
 }
 
@@ -100,22 +74,32 @@ a {
 .logo {
     display: flex;
     justify-content: center;
+    gap: 30px;
+    height: 450px;
     align-items: center;
-    height: 400px;
     background: url(../../images/footbal.jpg);
     background-size: cover;
     background-position: center center;
     background-blend-mode: color;
     background-color: #000000b7;
-    margin: 60px 0;
+    margin: 80px 0;
 }
 
-.logo p{
-    font-size: 130px;
+.logo img {
+    width: 400px;
+}
+
+.logo .presentation {
+    font-weight: bold;
     color: white;
+    text-align: center;
+    width: 500px;
 }
 
-
+.logo .presentation p {
+    padding: 0;
+    margin: 0;
+}
 
 .eventos-agendados {
     margin: 0 50px;
@@ -123,4 +107,10 @@ a {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

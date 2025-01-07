@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Index from "../pages/index/Index"
 import Dashboard from "../pages/dashboard/Dashboard"
 import Login from "../pages/login/Login"
+import Cadastro from "../pages/cadastro/cadastro"
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
         <Route
           path="/login"
           element={<Login/>}
+        />
+        <Route
+          path="/login/cadastrar"
+          element={<Cadastro/>}
         />
         <Route
           path="*"

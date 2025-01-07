@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header"
+import logo from "../../images/logotipo.png"
 import { Link } from "react-router-dom"
-import { Cards, Card, CardAgendamento } from "../../components/cardsInformation/cardsInformation"
+import { Cards, CardAgendamento } from "../../components/cardsInformation/cardsInformation"
 import "./index.css"
 import Footer from "../../components/footer/footer"
 import img1 from "../../images/Ellipse10.png"
@@ -25,23 +26,8 @@ function Index() {
                     </div>
                 </div>
 
-                <div className="cardsInformation">
-                    <Card
-                        num="150"
-                        text="Agendamentos"
-                    />
-                    <Card
-                        num="50"
-                        text="Usuarios cadastrados"
-                    />
-                    <Card
-                        num="100"
-                        text="Eventos ja realizados"
-                    />
-                </div>
-
                 <h1 className="evento-agendado">Agendamentos para este mes</h1>
-                
+
                 <div className="eventos-agendados">
                     <CardAgendamento
                         title="Campeonato de Xadrez"
@@ -60,9 +46,19 @@ function Index() {
                         date="15 de janeiro de 2025"
                     />
                 </div>
-                
+
                 <div className="logo">
-                    <p>Victor Sport</p>
+                    <img src={logo} alt="logotipo" />
+
+                    <div className="presentation">
+                        <div>
+                            <p>Agende e vê quais jogos vais curtir como nunca antes, em uma plataforma totalmente personalizada para você !</p>
+                            <div className="btn">
+                                <button className="btn-agendar"><Link to="/login">Agendar Agora</Link></button>
+                                <button className="btn-agendar"><Link to="/login">Ver a Agenda</Link></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="Testemunhas">

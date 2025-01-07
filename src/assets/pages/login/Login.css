@@ -1,0 +1,64 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+form {
+    width: 300px;
+    padding: 10px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    background: none;
+    padding: 15px;
+    outline: none;
+    width: 90%;
+}
+
+form button{
+    padding: 15px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #f82121a1;
+    font-size: 15px;
+    font-weight: bold;   
+    color: white;
+}
+
+.esqueci{
+    display: flex;
+    justify-content: right;
+}
+
+.naotenho{
+    display: flex;
+    justify-content: center;
+}
+.login a {
+    color: black;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
