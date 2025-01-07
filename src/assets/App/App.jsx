@@ -3,6 +3,7 @@ import Index from "../pages/index/Index"
 import Dashboard from "../pages/dashboard/Dashboard"
 import Login from "../pages/login/Login"
 import Cadastro from "../pages/cadastro/cadastro"
+import Confirmar from "../pages/confirmar/confirmar"
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
         <Route
           path="/login/cadastrar"
           element={<Cadastro/>}
+        />
+         <Route
+          path="/login/cadastrar/confirmar"
+          element={<Confirmar/>}
         />
         <Route
           path="*"

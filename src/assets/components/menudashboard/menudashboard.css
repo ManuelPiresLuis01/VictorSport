@@ -1,0 +1,33 @@
+.menudashboard {
+    width: 30%;
+    color: white;
+    background-color: #020253;
+    height: 100vh;
+}
+
+.menudashboard p {
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menudashboard ul {
+    margin-top: 30px;
+    display: block;
+
+}
+
+
+.menudashboard ul li {
+    cursor: pointer;
+    padding: 20px 8px;
+    width: 100%;
+    display: block;
+
+}
+
+.menudashboard ul li:hover {
+    background-color: #0b0b81;
+    border-left: 5px solid black;
+}

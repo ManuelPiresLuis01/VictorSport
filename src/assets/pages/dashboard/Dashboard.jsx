@@ -1,7 +1,15 @@
+import "./Dashboard.css"
+import HeaderDashboard from "../../components/HeaderDashboard/HeaderDashboard"
+import Menudashboard from "../../components/menudashboard/menudashboard"
+
 function Dashboard() {
     return (
         <div>
-            <h1>sou o dashboard</h1>
+            <HeaderDashboard />
+            <div className="Dashboard">
+                    <Menudashboard/>
+                <div className="dados"></div>
+            </div>
         </div>
     )
 }

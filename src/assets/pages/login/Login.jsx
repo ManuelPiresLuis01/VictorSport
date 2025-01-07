@@ -7,7 +7,7 @@ function Login() {
         <div className="login">
             <img src={logo} alt="logotipo" />
             <form>
-                <h1>LOGIN</h1>
+                <h1>Login</h1>
                 <div className="input">
                     <input
                         type="email"
