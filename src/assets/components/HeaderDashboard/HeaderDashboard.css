@@ -1,16 +1,43 @@
 .headerdashboard {
-    background-color: #81b0da;
+    overflow: hidden;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    gap: 20px;
     align-items: center;
     padding: 0 50px;
     box-shadow: 0 0 0 1.5px #00000057;
 }
 
 .headerdashboard img {
-    width: 80px;
+    width: 60px;
+}
+
+.user {
+    display: flex;
+    gap: 30px;
+}
+
+.user div {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.user div:hover {
+    background-color: #e2e2e2;
+}
+
+.user p {
+    font-size: 15px;
+}
+
+.user i {
+    font-size: 20px;
 }

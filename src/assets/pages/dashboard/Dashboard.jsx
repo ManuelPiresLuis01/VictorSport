@@ -7,7 +7,9 @@ function Dashboard() {
         <div className="Dashboard">
             <HeaderDashboard />
             <Menudashboard />
-            <div className="dados"></div>
+            <div className="dados">
+                
+            </div>
         </div>
     )
 }
