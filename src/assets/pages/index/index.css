@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.presentation p{
+.presentation p {
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ a {
     color: white;
 }
 
-.btn-agendar a{
+.btn-agendar a {
     color: white;
 }
 
@@ -75,13 +75,19 @@ a {
 .cardsInformation {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 80px;
     align-items: center;
     margin: 80px;
 }
 
-.Testemunhas {
+.Testemunhas,
+.evento-agendado {
     text-align: center;
+}
+
+.evento-agendado{
+    margin: 30px;
+    font-weight: bold;
 }
 
 .testemunhas {
@@ -92,6 +98,9 @@ a {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     background: url(../../images/footbal.jpg);
     background-size: cover;
@@ -99,4 +108,19 @@ a {
     background-blend-mode: color;
     background-color: #000000b7;
     margin: 60px 0;
+}
+
+.logo p{
+    font-size: 130px;
+    color: white;
+}
+
+
+
+.eventos-agendados {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }

@@ -1,9 +1,11 @@
-function Login(){
+import "./Login.css"
+
+function Login() {
     return (
-        <div>
-            <h1>Sou Login</h1>
+        <div className="container">
+            <p>Por favor coloque o seu email e password</p>
         </div>
-    )
+    );
 }
 
 export default Login

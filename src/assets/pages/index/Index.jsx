@@ -1,6 +1,6 @@
 import Header from "../../components/header/Header"
 import { Link } from "react-router-dom"
-import { Cards, Card } from "../../components/cardsInformation/cardsInformation"
+import { Cards, Card, CardAgendamento } from "../../components/cardsInformation/cardsInformation"
 import "./index.css"
 import Footer from "../../components/footer/footer"
 import img1 from "../../images/Ellipse10.png"
@@ -27,19 +27,40 @@ function Index() {
 
                 <div className="cardsInformation">
                     <Card
-                        icon="icon"
-                        text="Mais de 100 agendamentos por mês"
+                        num="150"
+                        text="Agendamentos"
                     />
                     <Card
-                        icon="icon"
-                        text="Mais de 100 agendamentos por mês"
+                        num="50"
+                        text="Usuarios cadastrados"
                     />
                     <Card
-                        icon="icon"
-                        text="Mais de 100 agendamentos por mês"
+                        num="100"
+                        text="Eventos ja realizados"
                     />
                 </div>
 
+                <h1 className="evento-agendado">Agendamentos para este mes</h1>
+                
+                <div className="eventos-agendados">
+                    <CardAgendamento
+                        title="Campeonato de Xadrez"
+                        date="15 de janeiro de 2025"
+                    />
+                    <CardAgendamento
+                        title="Campeonato de Xadrez"
+                        date="15 de janeiro de 2025"
+                    />
+                    <CardAgendamento
+                        title="Campeonato de Xadrez"
+                        date="15 de janeiro de 2025"
+                    />
+                    <CardAgendamento
+                        title="Campeonato de Xadrez"
+                        date="15 de janeiro de 2025"
+                    />
+                </div>
+                
                 <div className="logo">
                     <p>Victor Sport</p>
                 </div>

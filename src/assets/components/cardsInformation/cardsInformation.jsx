@@ -28,10 +28,19 @@ function Cards(p){
 
 function Card(p){
     return(
-        <div className="cardAprensentacao">
-            <i>{p.icon}</i>
+        <div className="cardApresentacao">
+            <h1>{p.num}</h1>
             <p>{p.text}</p>
         </div>
     )
 }
-export {Cards, Card}
+
+function CardAgendamento(p){
+    return (
+        <div className="agendamento">
+            <p className="title">{p.title}</p>
+            <p className="date">{p.date}</p>
+        </div>
+    )
+}
+export {Cards, Card, CardAgendamento}
