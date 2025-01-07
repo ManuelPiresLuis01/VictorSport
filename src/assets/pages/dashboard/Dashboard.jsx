@@ -4,12 +4,10 @@ import Menudashboard from "../../components/menudashboard/menudashboard"
 
 function Dashboard() {
     return (
-        <div>
+        <div className="Dashboard">
             <HeaderDashboard />
-            <div className="Dashboard">
-                    <Menudashboard/>
-                <div className="dados"></div>
-            </div>
+            <Menudashboard />
+            <div className="dados"></div>
         </div>
     )
 }

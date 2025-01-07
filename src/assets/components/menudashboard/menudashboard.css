@@ -1,7 +1,10 @@
 .menudashboard {
+    position: fixed;
+    top: 80px;
+    left: 0;
     width: 30%;
     color: white;
-    background-color: #020253;
+    background-color: #0b0b81;
     height: 100vh;
 }
 

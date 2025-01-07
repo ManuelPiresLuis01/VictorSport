@@ -1,6 +1,11 @@
 .headerdashboard {
+    background-color: #c3dff8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     padding: 0 50px;
     box-shadow: 0 0 0 1.5px #00000057;
@@ -8,16 +13,4 @@
 
 .headerdashboard img {
     width: 80px;
-}
-
-.username {
-    border: 1px solid #868686;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 5px 10px;
-    background-color: blanchedalmond;
-    color: #868686;
-    font-size: 40px;
-    font-weight: bold;
-    border-radius: 50%;
-    cursor: pointer;
 }
