@@ -8,7 +8,9 @@ function Dashboard() {
             <HeaderDashboard />
             <Menudashboard />
             <div className="dados">
-                
+                <h1>Bem vindo a Victor Sport</h1>
+                <p>Actualmente não tens eventos agendados, cria um evento em menos de 5 minutos!</p>
+                <button>Criar novo evento</button>
             </div>
         </div>
     )
