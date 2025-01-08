@@ -5,7 +5,7 @@ function Buttonproximo(p) {
     return (
         <div className="btn-proximo">
             <h1>{p.txt}</h1>
-            <button ><Link to={p.path}>{p.nome}</Link></button>
+            <button type= {p.type}><Link to={p.path}>{p.nome}</Link></button>
         </div>
       
     )

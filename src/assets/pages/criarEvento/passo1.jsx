@@ -9,12 +9,13 @@ function Passo1() {
         <div className="passo">
             <HeaderDashboard />
             <Menudashboard />
+            <form >
             <Buttonproximo
                 txt = "Vamos criar um evento!"
                 path="/dashboard/adicionar/passo2"
                 nome="Proximo"
+                type="submit"
             />
-            <form >
                 <div className="dados">
                     <div>
                         <div>

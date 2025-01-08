@@ -4,9 +4,17 @@
 }
 
 .dados{
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     width: 800px;
+}
+
+.upload{
+    margin-top: 30px;
+    margin-left: 150px;
 }
 
 .select{

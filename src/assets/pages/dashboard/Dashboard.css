@@ -3,13 +3,13 @@
     height: 100vh;
 }
 
-.dados{
+.dadosdashboard p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.dadosdashboard{
     margin-top: 200px;
     margin-left: 300px;
     text-align: center;
-}
-
-.dados p{
-    text-align: center;
-    font-size: 25px;
 }

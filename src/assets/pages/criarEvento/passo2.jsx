@@ -12,7 +12,15 @@ function Passo2(){
                 txt = "Termina de criar o teu evento!"
                 path="/dashboard/adicionar/passo3"
                 nome="Criar Evento"
+                type="submit"
             /> 
+
+            <div className="dados">
+                <div className="upload">
+                    <label>Faça upload do panfleto do evento *</label>
+                    <input type="file" />
+                </div>
+            </div>
         </div>
     )
 }

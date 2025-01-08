@@ -9,7 +9,7 @@ function Dashboard() {
         <div className="Dashboard">
             <HeaderDashboard />
             <Menudashboard />
-            <div className="dados">
+            <div className="dadosdashboard">
                 <div className="eventos">
                     <h1>Bem vindo a Victor Sport</h1>
                     <p>Actualmente não tens eventos agendados, cria um evento em menos de 5 minutos!</p>
