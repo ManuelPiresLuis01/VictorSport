@@ -57,36 +57,21 @@ span {
     margin-bottom: 0;
 }
 
-.agendamento p{
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-}
 
 .agendamento {
-    background: url(../../images/xadrez.jpg);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: color;
-    background-color: #000000c5;
-    cursor: pointer;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 20px;
+}
+
+
+.agendamento img {
     width: 350px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 1s;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
-.agendamento:hover{
-    background-color: #00000093;
-    background: url(../../images/xadrez.jpg);
-    background-size: cover;
-}
-
-.title {
-    margin-bottom: 30px;
+.agendamento p {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
 }

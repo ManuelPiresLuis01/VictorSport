@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 import { Cards, CardAgendamento } from "../../components/cardsInformation/cardsInformation"
 import "./index.css"
 import Footer from "../../components/footer/footer"
-import img1 from "../../images/Ellipse10.png"
+import imgAgendamento from "../../images/xadrez.jpg"
+import img1 from "../../images/Ellipse11.png"
 import img2 from "../../images/Ellipse11.png"
 import img3 from "../../images/Ellipse12.png"
 
@@ -29,22 +30,22 @@ function Index() {
                 <h1 className="evento-agendado">Agendamentos para este mes</h1>
 
                 <div className="eventos-agendados">
-                    <CardAgendamento
+                 <CardAgendamento
+                        img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
                     />
                     <CardAgendamento
+                       img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
                     />
                     <CardAgendamento
+                        img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
                     />
-                    <CardAgendamento
-                        title="Campeonato de Xadrez"
-                        date="15 de janeiro de 2025"
-                    />
+
                 </div>
 
                 <div className="logo">
