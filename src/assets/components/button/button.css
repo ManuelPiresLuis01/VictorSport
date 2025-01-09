@@ -12,7 +12,7 @@
 }
 
 .btn-proximo button,
-.btn-agendar{
+.btn-agendar-dashboard{
     cursor: pointer;
     background: green;
     border: none;
@@ -21,7 +21,7 @@
     width: 200px;
 }
 
-.btn-agendar a{
+.btn-agendar-dashboard a{
     color: white;
     font-weight: bold;
 }

@@ -1,7 +1,7 @@
 import "./Dashboard.css"
 import HeaderDashboard from "../../components/HeaderDashboard/HeaderDashboard"
 import Menudashboard from "../../components/menudashboard/menudashboard"
-import { Buttonproximo, ButtonAgendar } from "../../components/button/button"
+import { ButtonAgendar } from "../../components/button/button"
 
 
 function Dashboard() {

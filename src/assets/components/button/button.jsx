@@ -13,7 +13,7 @@ function Buttonproximo(p) {
 
 function ButtonAgendar(p) {
     return (
-        <button className="btn-agendar"><Link to={p.path}>{p.nome}</Link></button>
+        <button className="btn-agendar-dashboard"><Link to={p.path}>{p.nome}</Link></button>
     )
 }
 export { Buttonproximo, ButtonAgendar }
