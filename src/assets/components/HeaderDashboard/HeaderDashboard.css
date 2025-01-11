@@ -41,3 +41,7 @@
 .user i {
     font-size: 20px;
 }
+
+.user a {
+    color: black;
+}

@@ -1,15 +1,44 @@
-.Dashboard{
+.Dashboard {
     width: 100%;
     height: 100vh;
 }
 
-.dadosdashboard p{
+.dadosdashboard p {
     text-align: center;
     font-size: 25px;
 }
 
-.dadosdashboard{
+.dadosdashboard {
     margin-top: 200px;
     margin-left: 300px;
     text-align: center;
+}
+
+.Dashboard .dados {
+    display: flex;
+    margin-left: 300px;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dados h1 {
+    margin: 50px 0;
+}
+
+
+.dados-agendados {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    width: 950px;
+    padding: 10px;
+}
+
+.dados-agendados .agendamento img{
+    width: 250px;
+}
+
+.dados-agendados .agendamento{
+    height: 400px;
 }

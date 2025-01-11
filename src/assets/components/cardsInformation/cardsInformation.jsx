@@ -39,13 +39,13 @@ function Cards(p) {
 function CardAgendamento(p) {
     return (
         <div className="agendamento">
+            <img src={p.img} />
             <div className="inforCard">
-                <img src={p.img} />
                 <p className="title">{p.title}</p>
                 <p className="date">{p.date}</p>
                 < ButtonAgendar
-                    path="/login"
-                    nome="Agendar"
+                    path={p.path}
+                    nome= {p.nome}
                 />
             </div>
 

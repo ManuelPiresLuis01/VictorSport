@@ -59,8 +59,15 @@ span {
 
 
 .agendamento {
-    border: 1px solid black;
     border-radius: 20px;
+    height: 465px;
+    transition: 1s;
+}
+
+.agendamento:hover{
+    border-radius: 20px;
+   box-shadow:0 0 0 3px #00000085;
+    height: 465px;
 }
 
 
@@ -73,5 +80,15 @@ span {
 .agendamento p {
     font-size: 25px;
     color: black;
+    font-weight: 600;
+}
+
+.inforCard{
+    margin-top: 20px;
+}
+
+.inforCard button{
+    margin-top: 50px;
+    background-color: black;
     font-weight: bold;
 }

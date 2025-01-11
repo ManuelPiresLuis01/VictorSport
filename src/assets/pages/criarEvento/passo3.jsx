@@ -2,6 +2,7 @@ import "./passo.css"
 import HeaderDashboard from "../../components/HeaderDashboard/HeaderDashboard"
 import Menudashboard from "../../components/menudashboard/menudashboard"
 import { Buttonproximo } from "../../components/button/button"
+import { BiCheckCircle } from "react-icons/bi";
 
 function Passo3() {
     return (
@@ -14,6 +15,8 @@ function Passo3() {
                 nome="Principio"
                 type=""
             />
+                    i
+        
         </div>
     )
 }

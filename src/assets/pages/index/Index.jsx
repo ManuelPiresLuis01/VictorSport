@@ -9,10 +9,9 @@ import img1 from "../../images/Ellipse11.png"
 import img2 from "../../images/Ellipse11.png"
 import img3 from "../../images/Ellipse12.png"
 
-
-
 function Index() {
     return (
+
         <div className="index">
             <div className="main">
                 <div className="parte1">
@@ -34,16 +33,19 @@ function Index() {
                         img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
+                        desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                     />
                     <CardAgendamento
                        img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
+                        desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                     />
                     <CardAgendamento
                         img={imgAgendamento}
                         title="Campeonato de Xadrez"
                         date="15 de janeiro de 2025"
+                        desc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                     />
 
                 </div>

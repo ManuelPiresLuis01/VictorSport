@@ -54,7 +54,7 @@ function Passo1() {
                     <div>
                         <label>Limite de inscricões</label>
                         <br />
-                        <input type="time" />
+                        <input type="number" />
                     </div>
 
                     <div>

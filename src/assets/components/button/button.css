@@ -14,7 +14,7 @@
 .btn-proximo button,
 .btn-agendar-dashboard{
     cursor: pointer;
-    background: green;
+    background: black;
     border: none;
     border-radius: 20px;
     padding: 15px 0;
